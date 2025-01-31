@@ -22,12 +22,12 @@ I’m a software developer passionate about building APIs and solving real-world
 
 Here are some of the projects I’ve worked on:
 
-### 1. [To-Do List API](https://github.com/Ma-ano/Lab1)
+### 1. [To-Do List API](https://github.com/Ma-ano/Portfolio-for-ITEC116/tree/main/Laboratory2)
 - **Description**: A CRUD API for managing tasks, built with FastAPI.  
 - **Tech Stack**: Python, FastAPI, Docker.  
 - **Key Features**: Create, read, update, and delete tasks with proper HTTP status codes.  
 
-### 2. [Factorial Calculator API](https://github.com/Ma-ano/Laboratory-2)
+### 2. [Factorial Calculator API](https://github.com/Ma-ano/Portfolio-for-ITEC116/tree/main/Laboratory1)
 - **Description**: An API that calculates the factorial of a given number.  
 - **Tech Stack**: Python, FastAPI.  
 - **Key Features**: Handles edge cases like input `0`.  
