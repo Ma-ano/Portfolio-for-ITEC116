@@ -60,6 +60,7 @@ Handles JSON parsing and conversion to Python data structures.
 4. Versioned To-Do List API
 - Description: A FastAPI application implementing a to-do list with API versioning, authentication, and proper error handling.
 - Tech Stack: Python, FastAPI, Pydantic, python-dotenv
+
 Key Features:
 Supports two API versions (apiv1 and apiv2) with identical CRUD functionality.
 Implements API key authentication via headers or query parameters.
@@ -69,6 +70,7 @@ Stores API key securely using environment variables.
 5. Cloud-Deployed To-Do List API
 - Description: The to-do list API from Laboratory Activity 4, deployed to the Render cloud platform with versioning and authentication.
 - Tech Stack: Python, FastAPI, Pydantic, python-dotenv, Render
+
 Key Features:
 Deployed on Render with a public URL for accessibility.
 Maintains versioning (apiv1 and apiv2) with CRUD operations.
