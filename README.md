@@ -22,15 +22,65 @@ I’m a software developer passionate about building APIs and solving real-world
 
 Here are some of the projects I’ve worked on:
 
-### 1. [To-Do List API](https://github.com/Ma-ano/Portfolio-for-ITEC116/tree/main/Laboratory2)
-- **Description**: A CRUD API for managing tasks, built with FastAPI.  
-- **Tech Stack**: Python, FastAPI, Docker.  
-- **Key Features**: Create, read, update, and delete tasks with proper HTTP status codes.  
+Portfolio Projects
+Overview
+This repository showcases a collection of API-based projects developed to demonstrate proficiency in Python, FastAPI, and related technologies. Each project highlights different aspects of API development, from basic CRUD operations to advanced features like versioning, authentication, and cloud deployment.
+Projects
+1. Factorial Calculator API
+Description: A simple FastAPI application designed to compute the factorial of a given integer input, handling edge cases effectively.
+Tech Stack: Python, FastAPI
+Key Features:
 
-### 2. [Factorial Calculator API](https://github.com/Ma-ano/Portfolio-for-ITEC116/tree/main/Laboratory1)
-- **Description**: An API that calculates the factorial of a given number.  
-- **Tech Stack**: Python, FastAPI.  
-- **Key Features**: Handles edge cases like input `0`.  
+Provides a single endpoint (/factorial/{starting_number}) to calculate the factorial of an integer.
+Uses a while loop for efficient factorial computation.
+Returns results in JSON format.
+Handles edge cases, such as input 0, correctly.
+
+2. To-Do List CRUD API
+Description: A FastAPI-based CRUD API for managing tasks in a to-do list, supporting creation, retrieval, updating, and deletion of tasks.
+Tech Stack: Python, FastAPI
+Key Features:
+
+Supports multiple endpoints:
+GET /database/{task_id}: Retrieve a task by ID.
+POST /database: Create a new task.
+PATCH /database/{task_id}: Update an existing task.
+DELETE /database/{task_id}: Delete a task by ID.
+PUT /database/{task_id}: Replace an existing task.
+
+Implements proper HTTP methods for task management.
+Returns appropriate HTTP status codes for operations.
+
+3. JSON Data Manipulation API
+Description: An API that integrates with JSONPlaceholder to retrieve and manipulate posts and comments, focusing on JSON data handling.
+Tech Stack: Python, FastAPI, Requests, JSON
+Key Features:
+
+Retrieves posts and comments from JSONPlaceholder API.
+Formats data based on user or post IDs.
+Implements an endpoint (/detailed_post/{userID}) to fetch all posts by a user and their associated comments.
+Handles JSON parsing and conversion to Python data structures.
+
+4. Versioned To-Do List API
+Description: A FastAPI application implementing a to-do list with API versioning, authentication, and proper error handling.
+Tech Stack: Python, FastAPI, Pydantic, python-dotenv
+Key Features:
+
+Supports two API versions (apiv1 and apiv2) with identical CRUD functionality.
+Implements API key authentication via headers or query parameters.
+Uses Pydantic for input validation and proper HTTP status codes for error handling.
+Stores API key securely using environment variables.
+
+5. Cloud-Deployed To-Do List API
+Description: The to-do list API from Laboratory Activity 4, deployed to the Render cloud platform with versioning and authentication.
+Tech Stack: Python, FastAPI, Pydantic, python-dotenv, Render
+Key Features:
+
+Deployed on Render with a public URL for accessibility.
+Maintains versioning (apiv1 and apiv2) with CRUD operations.
+Implements API key authentication and secure environment variable storage on Render.
+Includes health check and welcome endpoints for monitoring and accessibility.
+
 
 ---
 
