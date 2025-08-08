@@ -25,6 +25,7 @@ Here are some of the projects I’ve worked on:
 1. Factorial Calculator API
 - Description: A simple FastAPI application designed to compute the factorial of a given integer input, handling edge cases effectively.
 - Tech Stack: Python, FastAPI
+
 Key Features:
 Provides a single endpoint (/factorial/{starting_number}) to calculate the factorial of an integer.
 Uses a while loop for efficient factorial computation.
@@ -34,6 +35,7 @@ Handles edge cases, such as input 0, correctly.
 2. To-Do List CRUD API
 - Description: A FastAPI-based CRUD API for managing tasks in a to-do list, supporting creation, retrieval, updating, and deletion of tasks.
 - Tech Stack: Python, FastAPI
+
 Key Features:
 Supports multiple endpoints:
 GET /database/{task_id}: Retrieve a task by ID.
@@ -48,6 +50,7 @@ Returns appropriate HTTP status codes for operations.
 3. JSON Data Manipulation API
 - Description: An API that integrates with JSONPlaceholder to retrieve and manipulate posts and comments, focusing on JSON data handling.
 - Tech Stack: Python, FastAPI, Requests, JSON
+
 Key Features:
 Retrieves posts and comments from JSONPlaceholder API.
 Formats data based on user or post IDs.
